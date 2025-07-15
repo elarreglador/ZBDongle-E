@@ -1,5 +1,5 @@
 # ZBDongle-E
-Thread firmware setup in a ZBDongle-E
+Thread multipan firmware setup in a ZBDongle-E
 
 <table>
   <tr>
