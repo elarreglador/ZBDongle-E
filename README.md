@@ -1,6 +1,13 @@
 # ZBDongle-E
 Thread firmware setup in a ZBDongle-E
 
+<table>
+  <tr>
+    <td><img src="https://github.com/elarreglador/ZBDongle-E/blob/main/case.jpg"></td>
+    <td><img src="https://github.com/elarreglador/ZBDongle-E/blob/main/no_case.jpg"></td>
+  </tr>
+</table>
+
 # BASH COMMANDS
 Nuestro dispositivo es el 10c4:ea60 , verificamos que esta conectado a nuestro equipo
 ```
