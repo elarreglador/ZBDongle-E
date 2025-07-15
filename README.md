@@ -9,6 +9,15 @@ Thread firmware setup in a ZBDongle-E
 </table>
 
 # BASH COMMANDS
+
+Para instalar el nuevo firmware en el ZBDongle-E, usaremos la herramienta Universal Silabs Flasher. No es necesario desmontar el dispositivo para acceder al botón de boot
+
+Es necesario Python3.
+
+Para instalar la herramienta flash, ejecuta el siguiente comando:
+```
+pip3 install universal-silabs-flasher
+```
 Nuestro dispositivo es el 10c4:ea60 , verificamos que esta conectado a nuestro equipo
 ```
 lsusb
@@ -20,7 +29,7 @@ Bus 001 Device 005: ID 0573:1573 Zoran Co. Personal Media Division (Nogatech) US
 Bus 001 Device 036: ID 10c4:ea60 Silicon Labs CP210x UART Bridge
 Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
 ```
-Descargamos e instalamos el nuevo firmware al USB dongle
+Descargamos e instalamos el nuevo firmware al USB dongle, verifica seleccionar el puerto serie correcto y el nombre y ruta del archivo del firmware
 ```
 universal-silabs-flasher --device /dev/ttyUSB0 \
     flash --firmware ./../Descargas/rcp-uart-802154-v4.3.1-zbdonglee-460800.gbl --allow-cross-flashing
