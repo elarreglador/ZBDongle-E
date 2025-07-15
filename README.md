@@ -49,5 +49,8 @@ universal-silabs-flasher --device /dev/ttyUSB0 \
 rcp-uart-802154-v4.3.1-zbdonglee-460800.gbl  [####################################]  100%   
 ```
 
+# UTILES
+https://darkxst.github.io/silabs-firmware-builder/
+
 # FUENTE
 https://dialedin.com.au/blog/sonoff-zbdongle-e-rcp-firmware
